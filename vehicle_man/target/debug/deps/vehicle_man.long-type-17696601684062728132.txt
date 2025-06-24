@@ -1,0 +1,2 @@
+fn(Json<Vehicle>) -> impl std::future::Future<Output = Json<Vehicle>> {vehicle_post}
+fn(Json<Vehicle>) -> impl std::future::Future<Output = Json<Vehicle>> {vehicle_post}: Handler<_, _>
