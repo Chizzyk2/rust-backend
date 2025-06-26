@@ -1,0 +1,2 @@
+fn(axum::extract::State<Pool<sqlx::Postgres>>) -> Result<(StatusCode, std::string::String), (StatusCode, std::string::String)> {get_tasks}
+fn(axum::extract::State<Pool<sqlx::Postgres>>) -> Result<(StatusCode, std::string::String), (StatusCode, std::string::String)> {get_tasks}: Handler<_, _>
